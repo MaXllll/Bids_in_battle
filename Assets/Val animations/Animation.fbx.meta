@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 0185ee8c99ed7d44c9aae84b0e4e935b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 02_09_turn and strike
+    100002: //RootNode
+    100004: Camera
+    100006: Head
+    100008: Head_end
+    100010: Hips
+    100012: Lamp
+    100014: LeftArm
+    100016: LeftFingerBase
+    100018: LeftFoot
+    100020: LeftForeArm
+    100022: LeftHand
+    100024: LeftHandIndex1
+    100026: LeftHandIndex1_end
+    100028: LeftLeg
+    100030: LeftShoulder
+    100032: LeftToeBase
+    100034: LeftToeBase_end
+    100036: LeftUpLeg
+    100038: LHipJoint
+    100040: LowerBack
+    100042: LThumb
+    100044: LThumb_end
+    100046: Neck
+    100048: Neck1
+    100050: RHipJoint
+    100052: RightArm
+    100054: RightFingerBase
+    100056: RightFoot
+    100058: RightForeArm
+    100060: RightHand
+    100062: RightHandIndex1
+    100064: RightHandIndex1_end
+    100066: RightLeg
+    100068: RightShoulder
+    100070: RightToeBase
+    100072: RightToeBase_end
+    100074: RightUpLeg
+    100076: RThumb
+    100078: RThumb_end
+    100080: Spine
+    100082: Spine1
+    400000: 02_09_turn and strike
+    400002: //RootNode
+    400004: Camera
+    400006: Head
+    400008: Head_end
+    400010: Hips
+    400012: Lamp
+    400014: LeftArm
+    400016: LeftFingerBase
+    400018: LeftFoot
+    400020: LeftForeArm
+    400022: LeftHand
+    400024: LeftHandIndex1
+    400026: LeftHandIndex1_end
+    400028: LeftLeg
+    400030: LeftShoulder
+    400032: LeftToeBase
+    400034: LeftToeBase_end
+    400036: LeftUpLeg
+    400038: LHipJoint
+    400040: LowerBack
+    400042: LThumb
+    400044: LThumb_end
+    400046: Neck
+    400048: Neck1
+    400050: RHipJoint
+    400052: RightArm
+    400054: RightFingerBase
+    400056: RightFoot
+    400058: RightForeArm
+    400060: RightHand
+    400062: RightHandIndex1
+    400064: RightHandIndex1_end
+    400066: RightLeg
+    400068: RightShoulder
+    400070: RightToeBase
+    400072: RightToeBase_end
+    400074: RightUpLeg
+    400076: RThumb
+    400078: RThumb_end
+    400080: Spine
+    400082: Spine1
+    7400000: 02_09_turn and strike|02_09_turn and strike
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
