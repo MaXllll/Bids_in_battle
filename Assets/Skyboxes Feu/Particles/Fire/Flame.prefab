@@ -477,8 +477,8 @@ Light:
   serializedVersion: 3
   m_Type: 2
   m_Color: {r: 1, g: .613192797, b: .186567187, a: 1}
-  m_Intensity: 1.10810816
-  m_Range: 6.11444902
+  m_Intensity: 6.5
+  m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:

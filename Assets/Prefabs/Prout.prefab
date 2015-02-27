@@ -678,7 +678,7 @@ Transform:
   m_GameObject: {fileID: 139624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.03999996, y: -.469999999, z: -3.93000007}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 439626}
   m_Father: {fileID: 0}
@@ -1345,7 +1345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 139624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e3454b798fe804083be7bd06bf1112, type: 3}
+  m_Script: {fileID: 11500000, guid: 3007cfe214c66e74b9b9349fabf7e399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _T_boid: {fileID: 439626}
@@ -1436,7 +1436,7 @@ LODGroup:
     renderers: []
   - screenRelativeHeight: .529521346
     renderers: []
-  - screenRelativeHeight: .437966973
+  - screenRelativeHeight: .402791947
     renderers: []
   m_Enabled: 1
 --- !u!1001 &100100000

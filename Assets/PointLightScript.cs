@@ -17,15 +17,15 @@ public class PointLightScript : MonoBehaviour {
 
 		if(intensityDown)
 		{
-			light.intensity -= 1.0f;
+			light.intensity -= 0.15f;
 		} else {
-			light.intensity += 1.0f;
+			light.intensity += 0.15f;
 		}
 		
-		if(light.intensity < 2.0f)
+		if(light.intensity <= 0f)
 		{
 			intensityDown = false;
-		} if (light.intensity > 8.0f){
+		} if (light.intensity >= 2.5f){
 			intensityDown = true;
 		}
 	}
