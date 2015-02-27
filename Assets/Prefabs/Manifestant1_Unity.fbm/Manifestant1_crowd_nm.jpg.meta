@@ -1,20 +1,12 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: ab4b14d11bd4d6e4f9e2801f80571c82
-=======
-guid: 979c3a239962d7d42b92abe5170dad3b
->>>>>>> origin/Fred
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-<<<<<<< HEAD
     linearTexture: 1
-=======
-    linearTexture: 0
->>>>>>> origin/Fred
     correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
@@ -22,11 +14,7 @@ TextureImporter:
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
-<<<<<<< HEAD
     externalNormalMap: 1
-=======
-    externalNormalMap: 0
->>>>>>> origin/Fred
     heightScale: .25
     normalMapFilter: 0
   isReadable: 0
@@ -51,11 +39,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
-<<<<<<< HEAD
   textureType: 1
-=======
-  textureType: -1
->>>>>>> origin/Fred
   buildTargetSettings: []
   spriteSheet:
     sprites: []
