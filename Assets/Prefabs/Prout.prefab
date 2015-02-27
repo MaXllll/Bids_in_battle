@@ -8,6 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 439624}
+  - 114: {fileID: 11439804}
   m_Layer: 0
   m_Name: Prout
   m_TagString: Untagged
@@ -24,6 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 439626}
   - 95: {fileID: 9539710}
+  - 205: {fileID: 20503120}
   m_Layer: 0
   m_Name: Swats9
   m_TagString: Untagged
@@ -1329,12 +1331,35 @@ Animator:
   m_GameObject: {fileID: 139626}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 49a30f8e0dea03e4fa6e542a928c1338, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0573b44d022b8cb47acbf821433433d7, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11439804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e3454b798fe804083be7bd06bf1112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _T_boid: {fileID: 439626}
+  _T_graphic: {fileID: 439626}
+  _animator: {fileID: 9539710}
+  _boids_team: {fileID: 0}
+  _boid_target: {fileID: 0}
+  _b_is_dead: 0
+  _f_max_speed: 10
+  _f_acceleration: 20
+  _V3_target: {x: 0, y: 0, z: 0}
+  _V3_thread_position: {x: 0, y: 0, z: 0}
+  _V3_thread_velocity: {x: 0, y: 0, z: 0}
+  _V3_thread_have_boid_target: 0
 --- !u!137 &13739710
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1397,6 +1422,23 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -.0731459856, z: -.00472454727}
     m_Extent: {x: .965338111, y: .895106554, z: .188272655}
   m_DirtyAABB: 0
+--- !u!205 &20503120
+LODGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139626}
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_ScreenRelativeTransitionHeight: 0
+  m_LODs:
+  - screenRelativeHeight: .600000024
+    renderers: []
+  - screenRelativeHeight: .529521346
+    renderers: []
+  - screenRelativeHeight: .437966973
+    renderers: []
+  m_Enabled: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
