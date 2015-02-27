@@ -16,6 +16,7 @@ public class Test : MonoBehaviour {
 		anim.SetInteger("Attack", 0);
 		anim.SetBool("Walk", false);
 		anim.SetBool("Run", false);
+		anim.SetBool("Die", false);
 
 		if(Input.GetKey(KeyCode.Z))
 		{
@@ -31,6 +32,11 @@ public class Test : MonoBehaviour {
 		if (Input.GetKey (KeyCode.R))
 		{
 			anim.SetBool("Run", true);
+		}
+
+		if (Input.GetKey (KeyCode.D))
+		{
+			anim.SetBool("Die", true);
 		}
 
 	}

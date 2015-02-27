@@ -874,7 +874,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400074, guid: 49a30f8e0dea03e4fa6e542a928c1338, type: 3}
   m_PrefabInternal: {fileID: 1124617006}
   m_GameObject: {fileID: 742939491}
-  m_LocalRotation: {x: -2.6732232e-09, y: .994656742, z: -2.22505676e-08, w: -.103237711}
+  m_LocalRotation: {x: -2.67322342e-09, y: .994656742, z: -2.22505676e-08, w: -.103237711}
   m_LocalPosition: {x: -.107199505, y: -.149910748, z: -.0763666108}
   m_LocalScale: {x: .150000006, y: .150000006, z: .150000006}
   m_Children: []
@@ -893,7 +893,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 5154ab6740356224cab9c8ddf6bbac31, type: 2}
+  - {fileID: 2100000, guid: 6fabfffd769f64e8da680c697b85152b, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2174,7 +2174,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 1942236231}
   m_AABB:
-    m_Center: {x: 0, y: -.0731459856, z: -.00472454727}
+    m_Center: {x: 0, y: -.0731459856, z: -.00472455472}
     m_Extent: {x: .965338111, y: .895106554, z: .188272655}
   m_DirtyAABB: 0
 --- !u!1 &1860396931
