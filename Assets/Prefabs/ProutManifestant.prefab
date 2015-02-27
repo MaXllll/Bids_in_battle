@@ -36,25 +36,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 178830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 595555588f8367043bdbafff128aa810, type: 3}
+  m_Script: {fileID: 11500000, guid: 49a6f217c77494942ab094b5a953ab45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _T_boid: {fileID: 0}
-  _T_graphic: {fileID: 0}
+  _T_boid: {fileID: 486534, guid: d0525a9ca872140b79bdaa783f5eac06, type: 2}
+  _T_graphic: {fileID: 486534, guid: d0525a9ca872140b79bdaa783f5eac06, type: 2}
   _A_T_Boid:
-  - {fileID: 486534, guid: 76c7acd1a308bf847b22a5d7c4d52c8e, type: 2}
-  - {fileID: 488204, guid: a38d13d1267fd7f44b805fbc46346d94, type: 2}
-  - {fileID: 497246, guid: 2427e398f29e47241a73e1335d6d2f0f, type: 2}
-  - {fileID: 478006, guid: 447f22951f2914944b035a4077fbf935, type: 2}
-  - {fileID: 434928, guid: f4306707faaf1094c8d6ec7936448d82, type: 2}
-  - {fileID: 444780, guid: 5340d752e8977bd40a01d8a74b4493b6, type: 2}
+  - {fileID: 486534, guid: d0525a9ca872140b79bdaa783f5eac06, type: 2}
+  - {fileID: 488204, guid: c72d194397b8c4560bf71534e9359f66, type: 2}
+  - {fileID: 497246, guid: 11c2c51b14ad64165ad7dd3b1403d455, type: 2}
+  - {fileID: 478006, guid: 1deaf64baf373421da2cfc7fe6baff55, type: 2}
+  - {fileID: 434928, guid: f0e080ce333cd49628b43a6c896d0286, type: 2}
+  - {fileID: 444780, guid: 3bdd38fb3dd7d45c18d51561ced4ca04, type: 2}
   _A_T_graphic:
-  - {fileID: 486534, guid: 76c7acd1a308bf847b22a5d7c4d52c8e, type: 2}
-  - {fileID: 488204, guid: a38d13d1267fd7f44b805fbc46346d94, type: 2}
-  - {fileID: 497246, guid: 2427e398f29e47241a73e1335d6d2f0f, type: 2}
-  - {fileID: 478006, guid: 447f22951f2914944b035a4077fbf935, type: 2}
-  - {fileID: 434928, guid: f4306707faaf1094c8d6ec7936448d82, type: 2}
-  - {fileID: 444780, guid: 5340d752e8977bd40a01d8a74b4493b6, type: 2}
+  - {fileID: 486534, guid: d0525a9ca872140b79bdaa783f5eac06, type: 2}
+  - {fileID: 488204, guid: c72d194397b8c4560bf71534e9359f66, type: 2}
+  - {fileID: 497246, guid: 11c2c51b14ad64165ad7dd3b1403d455, type: 2}
+  - {fileID: 478006, guid: 1deaf64baf373421da2cfc7fe6baff55, type: 2}
+  - {fileID: 434928, guid: f0e080ce333cd49628b43a6c896d0286, type: 2}
+  - {fileID: 444780, guid: 3bdd38fb3dd7d45c18d51561ced4ca04, type: 2}
   _animator: {fileID: 0}
   _boids_team: {fileID: 0}
   _boid_target: {fileID: 0}
