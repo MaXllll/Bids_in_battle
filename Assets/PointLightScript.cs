@@ -5,7 +5,6 @@ public class PointLightScript : MonoBehaviour {
 
 	private Light light;
 
-	bool intensityUp = false;
 
 	bool intensityDown = true;
 	// Use this for initialization
@@ -22,6 +21,12 @@ public class PointLightScript : MonoBehaviour {
 		} else {
 			light.intensity += 1.0f;
 		}
-		 
+		
+		if(light.intensity < 2.0f)
+		{
+			intensityDown = false;
+		} if (light.intensity > 8.0f){
+			intensityDown = true;
+		}
 	}
 }
