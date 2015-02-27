@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 08587cd119c25f04dad3477ab72ce103
+=======
+guid: 8f4ce6b5854ab054c8b858b43e8139e8
+>>>>>>> origin/Fred
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2

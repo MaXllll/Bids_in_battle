@@ -74,6 +74,7 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 19400000, guid: ba38eb4c9a66daf41a2c27562cf6503f, type: 2}
+<<<<<<< HEAD
 --- !u!1 &58729297
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +272,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1308496114}
   m_RootOrder: 0
+=======
+>>>>>>> origin/Fred
 --- !u!1 &305063729
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +343,7 @@ Transform:
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 2
 --- !u!1 &321259532
 GameObject:
@@ -415,6 +419,9 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+=======
+  m_RootOrder: 3
+>>>>>>> origin/Fred
 --- !u!1 &436893991
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +505,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 1
 --- !u!1 &446549300
 GameObject:
@@ -811,11 +819,26 @@ GameObject:
   - 4: {fileID: 736876139}
   m_Layer: 0
   m_Name: RightHandThumb2_End
+=======
+  m_RootOrder: 2
+--- !u!1 &876793051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 876793054}
+  - 114: {fileID: 876793053}
+  m_Layer: 0
+  m_Name: Manager_team_2
+>>>>>>> origin/Fred
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &736876139
 Transform:
   m_ObjectHideFlags: 0
@@ -1144,6 +1167,44 @@ Transform:
   - {fileID: 788736373}
   m_Father: {fileID: 2089146992}
   m_RootOrder: 0
+=======
+--- !u!114 &876793053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876793051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984d08bd6d919014da27bf0a68856aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _i_nb_boids: 250
+  _Prefab_boid: {fileID: 100004, guid: cef9929bf70eaff4fb5bfad1a9d1068d, type: 2}
+  _team_enemy: {fileID: 1045446099}
+  _f_x_range: 30
+  _f_y_range: 100
+  _f_distance_aggro: 10
+  _f_distance_separation: 2
+  _f_factor_separation: 1
+  _f_distance_alignment: 6
+  _f_factor_alignment: 1
+  _f_distance_aggregation: 9
+  _f_factor_aggregation: .25
+  _V3_destination: {x: 50, y: 0, z: 0}
+--- !u!4 &876793054
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876793051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -50, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+>>>>>>> origin/Fred
 --- !u!1 &1045446096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,14 +1214,14 @@ GameObject:
   m_Component:
   - 4: {fileID: 1045446098}
   - 114: {fileID: 1045446099}
-  - 114: {fileID: 1045446097}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: Manager_team_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!114 &1045446097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1177,6 +1238,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   _boids_team: {fileID: 1045446099}
+=======
+>>>>>>> origin/Fred
 --- !u!4 &1045446098
 Transform:
   m_ObjectHideFlags: 0
@@ -1184,7 +1247,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1045446096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 50, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1200,14 +1263,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 984d08bd6d919014da27bf0a68856aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _i_nb_boids: 1000
-  _Prefab_boid: {fileID: 100012, guid: e95d308e4c3529d44b55bfa6834ca3c2, type: 2}
+  _i_nb_boids: 250
+  _Prefab_boid: {fileID: 100014, guid: 315c9b132f1773c4cb2f689a5460cd2e, type: 2}
+  _team_enemy: {fileID: 876793053}
+  _f_x_range: 15
+  _f_y_range: 100
+  _f_distance_aggro: 10
   _f_distance_separation: 2
   _f_factor_separation: 1
   _f_distance_alignment: 6
   _f_factor_alignment: 1
   _f_distance_aggregation: 9
   _f_factor_aggregation: .25
+<<<<<<< HEAD
   _V3_destination: {x: 0, y: 0, z: 0}
 --- !u!1 &1094791982
 GameObject:
@@ -1524,6 +1592,9 @@ Transform:
   - {fileID: 1094791983}
   m_Father: {fileID: 61700972}
   m_RootOrder: 0
+=======
+  _V3_destination: {x: -50, y: 0, z: 0}
+>>>>>>> origin/Fred
 --- !u!1 &1420386826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1657,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 3
 --- !u!1 &1472663922
 GameObject:
@@ -2390,3 +2462,6 @@ Transform:
   - {fileID: 446830145}
   m_Father: {fileID: 761322918}
   m_RootOrder: 0
+=======
+  m_RootOrder: 4
+>>>>>>> origin/Fred
