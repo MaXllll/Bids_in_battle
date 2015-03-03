@@ -67,6 +67,7 @@ ModelImporter:
     400060: ToSpine
     7400000: Male2_G5_BackKick|Male2_G16_DoubleKick
     7400002: Male2_G5_BackKick|Male2_G5_BackKick
+    7400004: Male2_G5_BackKick|Male2_G5_BackKick0
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -85,10 +86,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Male2_G5_BackKick|Male2_G16_DoubleKick
-      takeName: Male2_G5_BackKick|Male2_G16_DoubleKick
+      name: Male2_G5_BackKick|Male2_G5_BackKick0
+      takeName: Male2_G5_BackKick|Male2_G5_BackKick
       firstFrame: 0
-      lastFrame: 70
+      lastFrame: 68
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -98,7 +99,7 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 0
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
