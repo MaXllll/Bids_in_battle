@@ -7,8 +7,8 @@ public class SC_boids_team : MonoBehaviour {
 	[SerializeField]
 	private int _i_nb_boids;
 	[SerializeField]
-	private GameObject _Prefab_boid;
-	private SC_Boids_abstract[] _boids;
+	private GameObject[] _Prefab_boid;
+	private SC_boid[] _boids;
 
 	[SerializeField]
 	private SC_boids_team _team_enemy;
@@ -46,11 +46,11 @@ public class SC_boids_team : MonoBehaviour {
 
 	void Start()
 	{
-		_boids = new SC_Boids_abstract[_i_nb_boids];
+		_boids = new SC_boid[_i_nb_boids];
 		for(int i = 0; i < _i_nb_boids; ++i)
 		{
-			GameObject GO_tmp = Instantiate(_Prefab_boid, Vector3.zero, Quaternion.Euler(new Vector3(0f, Random.value * 360, 0f))) as GameObject;
-			_boids[i] = GO_tmp.GetComponent<SC_Boids_abstract>();
+			GameObject GO_tmp = Instantiate(_Prefab_boid[Random.Range(0, _Prefab_boid.Length - 1)], Vector3.zero, Quaternion.Euler(new Vector3(0f, Random.value * 360, 0f))) as GameObject;
+			_boids[i] = GO_tmp.GetComponent<SC_boid>();
 			_boids[i]._boids_team = this;
 			_boids[i].transform.parent = transform;
 			_boids[i].transform.localPosition = new Vector3(Random.value * _f_x_range - _f_x_range * 0.5f, 0f, Random.value * _f_y_range - _f_y_range * 0.5f);
