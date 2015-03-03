@@ -26,6 +26,9 @@ public class SC_boid : MonoBehaviour {
 	[SerializeField]
 	private float _f_acceleration = 20;
 
+	[SerializeField]
+	private int _i_nb_random_attack = 0;
+
 	[HideInInspector]
 	public Vector3 _V3_target = Vector3.zero;
 	private Vector3 _V3_velocity = Vector3.zero;
@@ -51,7 +54,7 @@ public class SC_boid : MonoBehaviour {
 		if (_b_is_dead)
 			return;
 
-		Vector3 V3_velocity_target;
+		Vector3 V3_velocity_target = Vector3.zero;
 
 		if (_boid_target != null)
 		{
@@ -88,7 +91,7 @@ public class SC_boid : MonoBehaviour {
 				}
 			}
 		}
-		else
+		else if (_boids_team != null)
 		{
 			V3_velocity_target = _boids_team._V3_destination_direction;
 			if (V3_velocity_target.magnitude < 4)
@@ -134,10 +137,21 @@ public class SC_boid : MonoBehaviour {
 
 	private IEnumerator PlayAttackAnim()
 	{
-		if (_animator != null)
-			_animator.SetBool("Attack", true);
-		yield return null;
-		if (_animator != null)
-			_animator.SetBool("Attack", false);
+		if (_i_nb_random_attack > 0)
+		{
+			if (_animator != null)
+				_animator.SetInteger("Attack", Random.Range(1, _i_nb_random_attack + 1));
+			yield return null;
+			if (_animator != null)
+				_animator.SetInteger("Attack", 0);
+		}
+		else
+		{
+			if (_animator != null)
+				_animator.SetBool("Attack", true);
+			yield return null;
+			if (_animator != null)
+				_animator.SetBool("Attack", false);
+		}
 	}
 }
