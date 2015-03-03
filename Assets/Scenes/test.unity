@@ -966,7 +966,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 377702199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a72f51bd544d20945802e67ab85f373b, type: 3}
+  m_Script: {fileID: 11500000, guid: c8e5046dd53fc4fe08a8f42e7c55e969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   axes: 0
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 377702199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab12ddb3de385b34198fab812f0f45a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0aa6f35c577b144b795d73fd31f8a39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
@@ -3428,12 +3428,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _i_nb_boids: 150
   _Prefab_boid:
-  - {fileID: 100000, guid: 64f9ff29a3536fe49a8505caa90c6e05, type: 2}
-  - {fileID: 100000, guid: 6a270cbdd3690294ea8b54abb3d228d9, type: 2}
-  - {fileID: 100018, guid: 930ca946a918a6346a26f3afbaa43930, type: 2}
-  - {fileID: 100018, guid: bca9483e65f818c4b9747f840f19c749, type: 2}
-  - {fileID: 100018, guid: d8108657487557844a2243f3573077d8, type: 2}
-  - {fileID: 100018, guid: e29c42b186a17324abe6783ec0ce00a0, type: 2}
+  - {fileID: 100018, guid: 5a0fc3f980be9495ca0694ec8929e59c, type: 2}
+  - {fileID: 100000, guid: 50b9c9a39e5234d1788a871b59b42656, type: 2}
+  - {fileID: 100000, guid: 53cd103543a4a4f5b9fb389f12fcfa8d, type: 2}
+  - {fileID: 100018, guid: 014ce9de6696f483590f9196f6c3887c, type: 2}
+  - {fileID: 100018, guid: e68d66ec127c145e491ecbd788776664, type: 2}
+  - {fileID: 100018, guid: 1f3f8de02f1884b9090947cc789b7045, type: 2}
   _team_enemy: {fileID: 1950639596}
   _f_x_range: 125
   _f_y_range: 50
@@ -4372,7 +4372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _i_nb_boids: 150
   _Prefab_boid:
-  - {fileID: 100018, guid: 18601e658bad29a4aa67e1c1013f16c4, type: 2}
+  - {fileID: 100018, guid: 060e35b7042964a76a5945ba35ffc7ba, type: 2}
   _team_enemy: {fileID: 1387632379}
   _f_x_range: 100
   _f_y_range: 75
