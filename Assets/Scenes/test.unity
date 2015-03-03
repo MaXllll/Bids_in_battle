@@ -1765,19 +1765,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 377702199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fb7dd5ad040af94ab478eb6450a749f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
---- !u!114 &377702201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 377702199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc1f6370452a5bf42ad3d1142493f42e, type: 3}
+  m_Script: {fileID: 11500000, guid: a72f51bd544d20945802e67ab85f373b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   axes: 0
@@ -1787,6 +1775,18 @@ MonoBehaviour:
   maximumX: 360
   minimumY: -60
   maximumY: 60
+--- !u!114 &377702201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 377702199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab12ddb3de385b34198fab812f0f45a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
 --- !u!81 &377702202
 AudioListener:
   m_ObjectHideFlags: 0
@@ -5998,7 +5998,7 @@ GameObject:
   - 4: {fileID: 1387632380}
   - 114: {fileID: 1387632379}
   m_Layer: 0
-  m_Name: Manager TeamManifestants
+  m_Name: Manager_Team_Manifestants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6018,22 +6018,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _i_nb_boids: 150
   _Prefab_boid:
-  - {fileID: 100018, guid: ced6e05192732ce45a3a15e9c150b571, type: 2}
-  - {fileID: 100018, guid: 9c08be257133f6d4aab5b6b86ba274c8, type: 2}
-  - {fileID: 100018, guid: c75fffe9652818f48b3288a38ec87d01, type: 2}
-  - {fileID: 100000, guid: df9f4ed04242f6a408d8d025b7264b40, type: 2}
-  - {fileID: 100000, guid: 7526148bb09e7804da515ed6aa2ff9d0, type: 2}
-  - {fileID: 100018, guid: 1e579e22a66f4014095fa43b3321d7d2, type: 2}
+  - {fileID: 100000, guid: 64f9ff29a3536fe49a8505caa90c6e05, type: 2}
+  - {fileID: 100000, guid: 6a270cbdd3690294ea8b54abb3d228d9, type: 2}
+  - {fileID: 100018, guid: 930ca946a918a6346a26f3afbaa43930, type: 2}
+  - {fileID: 100018, guid: bca9483e65f818c4b9747f840f19c749, type: 2}
+  - {fileID: 100018, guid: d8108657487557844a2243f3573077d8, type: 2}
+  - {fileID: 100018, guid: e29c42b186a17324abe6783ec0ce00a0, type: 2}
   _team_enemy: {fileID: 1950639596}
   _f_x_range: 125
   _f_y_range: 50
-  _f_distance_aggro: 5
-  _f_distance_separation: 3
-  _f_factor_separation: 3
+  _f_distance_aggro: 10
+  _f_distance_separation: 2
+  _f_factor_separation: 1
   _f_distance_alignment: 6
   _f_factor_alignment: 1
   _f_distance_aggregation: 9
-  _f_factor_aggregation: 2
+  _f_factor_aggregation: .25
   _V3_destination: {x: 0, y: 0, z: 0}
 --- !u!4 &1387632380
 Transform:
@@ -8234,7 +8234,7 @@ GameObject:
   - 4: {fileID: 1950639597}
   - 114: {fileID: 1950639596}
   m_Layer: 0
-  m_Name: ManagerTeamCRS
+  m_Name: Manager_Team_CRS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8254,17 +8254,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _i_nb_boids: 150
   _Prefab_boid:
-  - {fileID: 100018, guid: cb268ca9846087048bd513dbd735695f, type: 2}
+  - {fileID: 100018, guid: 18601e658bad29a4aa67e1c1013f16c4, type: 2}
   _team_enemy: {fileID: 1387632379}
   _f_x_range: 100
   _f_y_range: 75
-  _f_distance_aggro: 5
-  _f_distance_separation: 3
-  _f_factor_separation: 3
+  _f_distance_aggro: 10
+  _f_distance_separation: 2
+  _f_factor_separation: 1
   _f_distance_alignment: 6
   _f_factor_alignment: 1
   _f_distance_aggregation: 9
-  _f_factor_aggregation: 2
+  _f_factor_aggregation: .25
   _V3_destination: {x: 0, y: 0, z: 0}
 --- !u!4 &1950639597
 Transform:
